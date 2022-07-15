@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sliders {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.sliders input {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slide {
+    width: 25%;
+    height: 100%;
+    transition: all .6s ease;    
+}
+
+
+.one {
+    background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1649126097_18-vsegda-pomnim-com-p-samie-krasivie-peizazhi-prirodi-foto-20.jpg);
+    /*background-size: ;*/
+
+}
+.two {
+    background-image: url(https://img.fonwall.ru/o/33/goryi-sneg-derevya-polyana.jpg?route=mid&amp;h=750);
+    background-size: 100%;
+}
+.three {
+    background-image: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1649121891_66-vsegda-pomnim-com-p-zhivopisnaya-priroda-foto-72.jpg);
+    /*background-size: ;*/
+}
+.four {
+    background-image: url(https://i.artfile.ru/2560x1600_1161621_[www.ArtFile.ru].jpg);
+    /*background-size: ;*/
+}
+
+.click {
+    position: absolute;
+    top: 0px;
+    width: 50px;
+    height: 100%;
+    opacity: .1;
+    background-color: rgb(92, 92, 92, .7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    z-index: 100;
+    transition: all .4s easy;
+}
+
+.click:hover {
+    opacity: .5;
+    transform: scale(1.1);
+}
+
+.left {
+    left: 0;
+}
+.right {
+    right: 0;
+}
+#slide_1:checked ~ .one {
+    margin-left: 0%;
+}
+#slide_2:checked ~ .one {
+    margin-left: -25%;
+}
+
+
+
+.menu {
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 50px;
+    background-color:  rgb(92, 92, 92, .7);
+    font-size: 20px;
+    display: flex;
+    font-size: 20px;
+    color: white;
+    flex-wrap: wrap;
+    overflow: hidden;
+    left: calc(50% - 100px);
+}
+
+.menu:hover {
+    /*transform: scale(1.1);*/
+    height: 300px;
+    transition: all .8s ease; 
+}
+
+.menu-menu {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.menu-menu input {
+
+}
+
+input {outline:none;}
+
+a {
+    text-decoration: none;
+}
+
+.menu-menu .one-input:focus {
+    border: 0px;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    transition: all .4s ease; 
+}
+.menu-menu .two-input:hover {
+    border: 0px;
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    transition: all .4s ease; 
+    animation: anim 2s infinite ease-in-out;
+}
+
+@keyframes anim {
+  0%{
+    background-color: red;
+    }
+  50%{
+    background-color: blue;
+    }
+  90%{
+    background-color: green;
+    }
+  100%{
+    background-color: red;
+    }
+}
+.second_page {
+    padding: 20px;
+}
+
+.second_page input {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.second_page  .first:hover {
+    animation: anim 2s infinite ease-in-out;
+    transition: all .4s ease; 
+
+}
+.second_page  .first:focus {
+    animation: anim 2s infinite ease-in-out;
+    transition: all .4s ease; 
+    padding: 20px;
+}
+
+.second_page  .second {
+    padding: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.second_page  .second:hover {
+    padding: 7px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    border: 0px;
+
+}
+
+.second_page  .third:hover {
+
+    width: 200px;
+
+}
+
