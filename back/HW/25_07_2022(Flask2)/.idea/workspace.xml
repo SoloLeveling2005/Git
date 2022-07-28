@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f7cfa5c4-8c33-4b73-b826-96b2d788e078" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../20_07_2022(Flask1)/project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_07_2022(Flask1)/project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_07_2022(Flask1)/project/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_07_2022(Flask1)/project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_07_2022(Flask1)/project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20_07_2022(Flask1)/project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/data/data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/run.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/templates/log.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/templates/task.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/project/templates/task_update.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Work/Telegramm_bot/JARNAMA SERVIS AQTOBE/connect.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Work/Telegramm_bot/JARNAMA SERVIS AQTOBE/connect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Work/Telegramm_bot/JARNAMA SERVIS AQTOBE/data_user.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Work/Telegramm_bot/JARNAMA SERVIS AQTOBE/data_user.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Work/Telegramm_bot/JARNAMA SERVIS AQTOBE/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Work/Telegramm_bot/JARNAMA SERVIS AQTOBE/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20_07_2022(Flask1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../20_07_2022(Flask1)/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CCGmL3Q6ByZdCc6FF2BjlpkdPS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "S:/Git/back/HW/25_07_2022(Flask2)/project/venv",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="S:\Git\back\HW\25_07_2022(Flask2)\project" />
+      <recent name="S:\Git\back\HW\20_07_2022(Flask1)" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="S:\Git\back\HW\20_07_2022(Flask1)\project\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Batch.run">
+    <configuration name="run" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="20_07_2022(Flask1)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="S:\Git\back\HW\25_07_2022(Flask2)\project" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="run.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="script" type="BatchConfigurationType" factoryName="Batch" temporary="true">
+      <module name="20_07_2022(Flask1)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="script.bat" />
+      <option name="PARAMETERS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="20_07_2022(Flask1)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/project" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/project/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="20_07_2022(Flask1)" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Batch.run" />
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Batch.script" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f7cfa5c4-8c33-4b73-b826-96b2d788e078" name="Changes" comment="" />
+      <created>1658299311320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658299311320</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

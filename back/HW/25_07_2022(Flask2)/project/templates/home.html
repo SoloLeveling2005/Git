@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<header style="box-shadow: 0 0 5px;" class="d-flex justify-content-center py-3">
+    <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="{{url_for('task', variable=variable)}}" class="nav-link">New task</a></li>
+    </ul>
+</header>
+<section style="" class="content">
+    {% for data in list_data: %}
+<!--    {{data[0]}}-->
+        {% if data[0][3] == False %}
+            <div style="max-width:400px;height:min-content;margin:10px;text-align: left;border-left:5px solid red;" class="card shadow-sm">
+                <div class="card-body">
+                    <p class="card-text"><h2>{{data[0][0]}}</h2></p>
+                    <p class="card-text"><h4>{{data[0][1]}}</h4></p>
+                    <p class="card-text" style="margin-left:auto;"><h6>{{data[0][2]}}</h6></p>
+                    <div style="display: flex;">
+                        <form action="/home_post" method="POST" style="margin-right:10px;">
+                            <input type="hidden" name="data_one" value="{{data[0][0]}}">
+                            <input type="hidden" name="data_two" value="{{data[0][1]}}">
+                            <input type="hidden" name="data_three" value="{{data[0][2]}}">
+                            <input type="hidden" name="data_four" value="{{data[0][3]}}">
+                            <input type="hidden" name="data_five" value="{{data[0][4]}}">
+                            <input type="hidden" name="data_six" value="{{data[1][0]}}">
+                            <input type="hidden" name="variable" value="{{variable}}">
+                            <input type="submit" value="Выполнить">
+                        </form>
+                        <form action="/home_update" method="POST" style="margin-right:10px;">
+                            <input type="hidden" name="data_one" value="{{data[0][0]}}">
+                            <input type="hidden" name="data_two" value="{{data[0][1]}}">
+                            <input type="hidden" name="data_three" value="{{data[0][2]}}">
+                            <input type="hidden" name="data_four" value="{{data[0][3]}}">
+                            <input type="hidden" name="data_five" value="{{data[0][4]}}">
+                            <input type="hidden" name="data_six" value="{{data[1][0]}}">
+                            <input type="hidden" name="variable" value="{{variable}}">
+                            <input type="submit" value="Изменить">
+                        </form>
+                        <form action="/home_delete" method="POST" style="margin-right:10px;">
+                            <input type="hidden" name="data_one" value="{{data[0][0]}}">
+                            <input type="hidden" name="data_two" value="{{data[0][1]}}">
+                            <input type="hidden" name="data_three" value="{{data[0][2]}}">
+                            <input type="hidden" name="data_four" value="{{data[0][3]}}">
+                            <input type="hidden" name="data_five" value="{{data[0][4]}}">
+                            <input type="hidden" name="data_six" value="{{data[1][0]}}">
+                            <input type="hidden" name="variable" value="{{variable}}">
+                            <input type="submit" value="Удалить">
+                        </form>
+                    </div>
+
+<!--                    <a href="{{url_for('home_post', variable=(data[0][0],data[0][1],data[0][2],data[0][3],data[1]), data=data[0])}}"><button name="done" type="button" value="">Выполнить</button></a>-->
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+    {% for data in list_data: %}
+        {% if data[0][3] == True %}
+            <div style="max-width:400px;height:min-content;margin:10px;text-align: left;border-left:5px solid green;" class="card shadow-sm">
+                <div class="card-body">
+                    <p class="card-text"><h2>{{data[0][0]}}</h2></p>
+                    <p class="card-text"><h4>{{data[0][1]}}</h4></p>
+                    <p class="card-text" style="margin-left:auto;"><h6>{{data[0][2]}}</h6></p>
+                    <div style="display: flex;">
+                        <form action="/home_delete" method="POST">
+                            <input type="hidden" name="data_one" value="{{data[0][0]}}">
+                            <input type="hidden" name="data_two" value="{{data[0][1]}}">
+                            <input type="hidden" name="data_three" value="{{data[0][2]}}">
+                            <input type="hidden" name="data_four" value="{{data[0][3]}}">
+                            <input type="hidden" name="data_five" value="{{data[0][4]}}">
+                            <input type="hidden" name="data_six" value="{{data[1][0]}}">
+                            <input type="hidden" name="variable" value="{{variable}}">
+                            <input type="submit" value="Удалить">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        {% endif %}
+    {% endfor %}
+
+</section>
+
+<!--{{variable}}-->
+<!--Hi-->
+</body>
+</html>
