@@ -1,0 +1,198 @@
+
+.win, .game_over {
+	top: 0;
+	left: 0;
+	position: absolute;
+	font-size: 100px;
+	/*visibility: hidden;*/
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    z-index: -1000;
+    width: 100vw;
+    height: 100vh;
+    color: black;
+    transition: all .8s ease; 
+    opacity:0;
+    background-color: white;
+}
+
+.playing_field_one .boom {
+	color: #bec0bd;
+}
+
+
+.playing_field_one .three,
+.playing_field_one .four,
+.playing_field_one .five,
+.playing_field_one .six,
+.playing_field_one .nine,
+.playing_field_one .ten,
+.playing_field_one .eleven,
+.playing_field_one .twelve,
+.playing_field_one .fiveteen,
+.playing_field_one .sixteen,
+.playing_field_one .seventeen,
+.playing_field_one .eighteen,
+.playing_field_one .twenty_one,
+.playing_field_one .twenty_two,
+.playing_field_one .twenty_three,
+.playing_field_one .twenty_four  {
+	background-color: #bec0bd;
+	border: 0px;
+	padding: 4px;
+	color: black;
+}
+
+
+input {
+    position: absolute;
+    visibility: hidden;
+}
+
+
+
+#start:checked ~ p{
+	color: red;
+}
+
+
+
+/* boom */
+
+#one_boom:checked ~ .one {
+	color: red;
+
+}
+#one_boom:checked ~ .game_over1 {
+	z-index: 1000;
+	opacity:1;
+    -webkit-transition: opacity 1s ease-out 0.5s;
+    -moz-transition: opacity 1s ease-out 0.5s;
+    -o-transition: opacity 1s ease-out 0.5s;
+    transition: opacity 1s ease-out 0.5s;
+
+}
+
+#eight_boom:checked ~ .eight {
+	color: red;
+}
+#eight_boom:checked ~ .game_over2 {
+	z-index: 1000;
+	opacity:1;
+    -webkit-transition: opacity 1s ease-out 0.5s;
+    -moz-transition: opacity 1s ease-out 0.5s;
+    -o-transition: opacity 1s ease-out 0.5s;
+    transition: opacity 1s ease-out 0.5s;
+
+}
+#twenty_boom:checked ~ .twenty {
+	color: red;
+}
+#twenty_boom:checked ~ .game_over4 {
+	z-index: 1000;
+	opacity:1;
+    -webkit-transition: opacity 1s ease-out 0.5s;
+    -moz-transition: opacity 1s ease-out 0.5s;
+    -o-transition: opacity 1s ease-out 0.5s;
+    transition: opacity 1s ease-out 0.5s;
+
+}
+#twenty_five_boom:checked ~ .twenty_five {
+	color: red;
+}
+
+#twenty_eight_boom:checked ~ .twenty_eight {
+	color: red;
+}
+#twenty_five_boom:checked ~ .game_over5 {
+	z-index: 1000;
+	opacity:1;
+    -webkit-transition: opacity 1s ease-out 0.5s;
+    -moz-transition: opacity 1s ease-out 0.5s;
+    -o-transition: opacity 1s ease-out 0.5s;
+    transition: opacity 1s ease-out 0.5s;
+
+}
+#twenty_eight_boom:checked ~ .game_over5 {
+	z-index: 1000;
+	opacity:1;
+    -webkit-transition: opacity 1s ease-out 0.5s;
+    -moz-transition: opacity 1s ease-out 0.5s;
+    -o-transition: opacity 1s ease-out 0.5s;
+    transition: opacity 1s ease-out 0.5s;
+
+}
+#thirty_three_boom:checked ~ .thirty_three {
+	color: red;
+}
+
+#thirty_six_boom:checked ~ .thirty_six {
+	color: red;
+}
+#thirty_three_boom:checked ~ .game_over6 {
+	z-index: 1000;
+	opacity:1;
+    -webkit-transition: opacity 1s ease-out 0.5s;
+    -moz-transition: opacity 1s ease-out 0.5s;
+    -o-transition: opacity 1s ease-out 0.5s;
+    transition: opacity 1s ease-out 0.5s;
+
+}
+#thirty_six_boom:checked ~ .game_over6 {
+	z-index: 1000;
+	opacity:1;
+    -webkit-transition: opacity 1s ease-out 0.5s;
+    -moz-transition: opacity 1s ease-out 0.5s;
+    -o-transition: opacity 1s ease-out 0.5s;
+    transition: opacity 1s ease-out 0.5s;
+
+}
+
+
+
+/* char  */
+
+#two:checked ~ .two {
+	color: black;
+}
+#seven:checked ~ .seven {
+	color: black;
+}
+#thirteen:checked ~ .thirteen {
+	color: black;
+}
+#fourteen:checked ~ .fourteen {
+	color: black;
+}
+#nineteen:checked ~ .nineteen {
+	color: black;
+}
+#twenty_six:checked ~ .twenty_six {
+	color: black;
+}
+#twenty_seven:checked ~ .twenty_seven {
+	color: black;
+}
+#twenty_nine:checked ~ .twenty_nine {
+	color: black;
+}
+#thirty:checked ~ .thirty {
+	color: black;
+}
+#thirty_one:checked ~ .thirty_one {
+	color: black;
+}
+#thirty_two:checked ~ .thirty_two {
+	color: black;
+}
+#thirty_four:checked ~ .thirty_four {
+	color: black;
+}
+#thirty_five:checked ~ .thirty_five {
+	color: black;
+}
+
+
+
+

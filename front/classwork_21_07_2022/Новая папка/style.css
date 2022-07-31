@@ -1,0 +1,383 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	width: 500px;
+	height: 100vh;
+	position: relative;
+}
+
+
+.right {
+  	animation: anim_left_right 5s ease infinite;
+  	height: 50px;
+	background-color: red;
+}
+
+
+
+
+.left {
+	animation: anim_left_right 5s ease infinite;
+	height: 50px;
+	background-color: red;
+	position: absolute;
+	right: 0;
+	margin-top: 10px;
+}
+
+
+@keyframes anim_left_right {
+  0%{width: 0%;}
+  1%{width: 1%;}
+  2%{width: 2%;}
+  3%{width: 3%;}
+  4%{width: 4%;}
+  5%{width: 5%;}
+  6%{width: 6%;}
+  7%{width: 7%;}
+  8%{width: 8%;}
+  9%{width: 9%;}
+  10%{width: 10%;}
+  11%{width: 11%;}
+  12%{width: 12%;}
+  13%{width: 13%;}
+  14%{width: 14%;}
+  15%{width: 15%;}
+  16%{width: 16%;}
+  17%{width: 17%;}
+  18%{width: 18%;}
+  19%{width: 19%;}
+  20%{width: 20%;}
+  21%{width: 21%;}
+  22%{width: 22%;}
+  23%{width: 23%;}
+  24%{width: 24%;}
+  25%{width: 25%;}
+  26%{width: 26%;}
+  27%{width: 27%;}
+  28%{width: 28%;}
+  29%{width: 29%;}
+  30%{width: 30%;}
+  31%{width: 31%;}
+  32%{width: 32%;}
+  33%{width: 33%;}
+  34%{width: 34%;}
+  35%{width: 35%;}
+  36%{width: 36%;}
+  37%{width: 37%;}
+  38%{width: 38%;}
+  39%{width: 39%;}
+  40%{width: 40%;}
+  41%{width: 41%;}
+  42%{width: 42%;}
+  43%{width: 43%;}
+  44%{width: 44%;}
+  45%{width: 45%;}
+  46%{width: 46%;}
+  47%{width: 47%;}
+  48%{width: 48%;}
+  49%{width: 49%;}
+  50%{width: 50%;}
+  51%{width: 51%;}
+  52%{width: 52%;}
+  53%{width: 53%;}
+  54%{width: 54%;}
+  55%{width: 55%;}
+  56%{width: 56%;}
+  57%{width: 57%;}
+  58%{width: 58%;}
+  59%{width: 59%;}
+  60%{width: 60%;}
+  61%{width: 61%;}
+  62%{width: 62%;}
+  63%{width: 63%;}
+  64%{width: 64%;}
+  65%{width: 65%;}
+  66%{width: 66%;}
+  67%{width: 67%;}
+  68%{width: 68%;}
+  69%{width: 69%;}
+  70%{width: 70%;}
+  71%{width: 71%;}
+  72%{width: 72%;}
+  73%{width: 73%;}
+  74%{width: 74%;}
+  75%{width: 75%;}
+  76%{width: 76%;}
+  77%{width: 77%;}
+  78%{width: 78%;}
+  79%{width: 79%;}
+  80%{width: 80%;}
+  81%{width: 81%;}
+  82%{width: 82%;}
+  83%{width: 83%;}
+  84%{width: 84%;}
+  85%{width: 85%;}
+  86%{width: 86%;}
+  87%{width: 87%;}
+  88%{width: 88%;}
+  89%{width: 89%;}
+  90%{width: 90%;}
+  91%{width: 91%;}
+  92%{width: 92%;}
+  93%{width: 93%;}
+  94%{width: 94%;}
+  95%{width: 95%;}
+  96%{width: 96%;}
+  97%{width: 97%;}
+  98%{width: 98%;}
+  99%{width: 99%;}
+  100%{width: 100%;}
+}
+
+
+.for_top_bottom {
+	width: 100px;
+	height: 400px;
+	position: relative;
+	margin-top: 70px;
+}
+
+
+.top {
+	animation: anim_bottom_top 5s ease infinite;
+	width: 40px;
+	background-color: red;
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 10px;
+}
+
+
+
+.bottom {
+	animation: anim_bottom_top 5s ease infinite;
+	width: 40px;
+	background-color: red;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-top: 10px;
+	transform: rotate(180deg);
+}
+
+
+
+@keyframes anim_bottom_top {
+  0%{height: 0%;}
+  1%{height: 1%;}
+  2%{height: 2%;}
+  3%{height: 3%;}
+  4%{height: 4%;}
+  5%{height: 5%;}
+  6%{height: 6%;}
+  7%{height: 7%;}
+  8%{height: 8%;}
+  9%{height: 9%;}
+  10%{height: 10%;}
+  11%{height: 11%;}
+  12%{height: 12%;}
+  13%{height: 13%;}
+  14%{height: 14%;}
+  15%{height: 15%;}
+  16%{height: 16%;}
+  17%{height: 17%;}
+  18%{height: 18%;}
+  19%{height: 19%;}
+  20%{height: 20%;}
+  21%{height: 21%;}
+  22%{height: 22%;}
+  23%{height: 23%;}
+  24%{height: 24%;}
+  25%{height: 25%;}
+  26%{height: 26%;}
+  27%{height: 27%;}
+  28%{height: 28%;}
+  29%{height: 29%;}
+  30%{height: 30%;}
+  31%{height: 31%;}
+  32%{height: 32%;}
+  33%{height: 33%;}
+  34%{height: 34%;}
+  35%{height: 35%;}
+  36%{height: 36%;}
+  37%{height: 37%;}
+  38%{height: 38%;}
+  39%{height: 39%;}
+  40%{height: 40%;}
+  41%{height: 41%;}
+  42%{height: 42%;}
+  43%{height: 43%;}
+  44%{height: 44%;}
+  45%{height: 45%;}
+  46%{height: 46%;}
+  47%{height: 47%;}
+  48%{height: 48%;}
+  49%{height: 49%;}
+  50%{height: 50%;}
+  51%{height: 51%;}
+  52%{height: 52%;}
+  53%{height: 53%;}
+  54%{height: 54%;}
+  55%{height: 55%;}
+  56%{height: 56%;}
+  57%{height: 57%;}
+  58%{height: 58%;}
+  59%{height: 59%;}
+  60%{height: 60%;}
+  61%{height: 61%;}
+  62%{height: 62%;}
+  63%{height: 63%;}
+  64%{height: 64%;}
+  65%{height: 65%;}
+  66%{height: 66%;}
+  67%{height: 67%;}
+  68%{height: 68%;}
+  69%{height: 69%;}
+  70%{height: 70%;}
+  71%{height: 71%;}
+  72%{height: 72%;}
+  73%{height: 73%;}
+  74%{height: 74%;}
+  75%{height: 75%;}
+  76%{height: 76%;}
+  77%{height: 77%;}
+  78%{height: 78%;}
+  79%{height: 79%;}
+  80%{height: 80%;}
+  81%{height: 81%;}
+  82%{height: 82%;}
+  83%{height: 83%;}
+  84%{height: 84%;}
+  85%{height: 85%;}
+  86%{height: 86%;}
+  87%{height: 87%;}
+  88%{height: 88%;}
+  89%{height: 89%;}
+  90%{height: 90%;}
+  91%{height: 91%;}
+  92%{height: 92%;}
+  93%{height: 93%;}
+  94%{height: 94%;}
+  95%{height: 95%;}
+  96%{height: 96%;}
+  97%{height: 97%;}
+  98%{height: 98%;}
+  99%{height: 99%;}
+  100%{height: 100%;}
+}
+
+.main-2 {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	right: 0;
+	top: 200px;
+}
+.face {
+	border: 0px;
+	border-radius: 90%;
+	background-color: yellow;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.eyes1 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 60px;
+	left: 60px;
+	background-color: black;
+	border-radius: 90%;
+	transform: scaleX(.7)
+
+}
+
+.eyes2 {
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 60px;
+	right: 60px;
+	background-color: black;
+	border-radius: 90%;
+	transform: scaleX(.7)
+
+}
+
+.smile {
+	position: absolute;
+	bottom: 40px;
+	left: calc(50% - 55px);
+	width: 100px;
+	height: 50px;
+	transform: scaleY(.1);
+	background-color: white;
+	border-radius: 90%;
+	border: 10px solid black;
+}
+
+.face:hover .eyes1{
+	animation: anim_eyes 5s ease infinite;
+}
+
+
+
+@keyframes anim_eyes {
+  0%{transform: scaleY(.2)}
+
+  10%{}
+
+  20%{transform: scaleX(.7)}
+
+  30%{transform: scaleY(.2)}
+
+  40%{}
+
+  50%{transform: scaleX(.7)}
+
+  60%{transform: scaleY(.2)}
+
+  70%{}
+
+  80%{}
+
+  90%{}
+
+  100%{}
+}
+
+.smile:hover  {
+	animation: anim_smile 5s ease infinite;
+}
+
+
+@keyframes anim_smile {
+  0%{transform: scaleY(.2)}
+
+  10%{}
+
+  20%{transform: scaleX(.7)}
+
+  30%{transform: scaleY(.2)}
+
+  40%{}
+
+  50%{transform: scaleX(.7)}
+
+  60%{transform: scaleY(.2)}
+
+  70%{}
+
+  80%{}
+
+  90%{}
+
+  100%{}
+}

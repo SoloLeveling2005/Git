@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 22px;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+
+label {
+	width: 100%;
+	height: 100%;
+		display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.playing_field_one {
+	width: 360px;
+	height: 360px;
+
+}
+
+.playing_field_one ul {
+	display: flex;
+	background-color: black;
+}
+.playing_field_one li {
+	width: 60px;
+	height: 60px;
+	/*background-color: #bec0bd;*/
+	/*border: 4px solid white;*/
+	margin: .5px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    color: #bec0bd;
+
+
+    background-color: #bec0bd;
+	border: 0px;
+	padding: 4px;
+}
+
+/* ################################### */
+.playing_field_two {
+	width: 360px;
+	height: 360px;
+	margin-top: 80px;
+
+}
+
+.playing_field_two ul {
+
+	display: flex;
+	background-color: black;
+
+
+}
+.playing_field_two li {
+	width: 60px;
+	height: 60px;
+	background-color: #bec0bd;
+	border: 4px solid white;
+	margin: .5px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
