@@ -1,0 +1,279 @@
+/* ЛЕВОЕ МЕНЮ */
+
+.menu {
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+
+.menu-top_menu {
+    width: 100%;
+    height: 60px;
+    background-color: #f0f2f5;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    border-right: 1px solid #e5e5e5;
+}
+
+
+.menu-top_menu-profile {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/user_2.png);
+    background-size: 100% 100%;
+    border-radius: 90%;
+}
+.menu-top_menu-status {
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/status.png);
+    background-size: 100% 100%;
+    margin-left: auto;
+    margin-right: 30px;
+    opacity: .5;
+}
+
+
+.menu-top_menu-plus {
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/plus.png);
+    background-size: 100% 100%;
+    margin-right: 30px;
+    opacity: .5;
+}
+
+
+.menu-top_menu-menu_dost {
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/dots.png);
+    background-size: 100% 100%;
+    margin-right: 10px;
+    opacity: .5;
+}
+
+
+
+
+/* Поиск контактов */
+
+
+.find_contact {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 7px 12px;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.find_contact-input_box{
+    display: flex;
+    width: 92%;
+    height: 35px;
+    background-color: #f0f2f5;
+    align-items: center;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.find_contact-input_box-img_search {
+    width: 14px;
+    height: 14px;
+    margin: 0px 22px;
+    margin-right: 28px;
+}
+
+.find_contact-input_box-input {
+    width: auto;
+    height: 30px;
+    border: 0;
+    background-color: #f0f2f5;
+    font-size: 14px;
+
+}
+
+.find_contact-img_filter {
+    width: 16px;
+    height: 16px;
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+/* Поиск контактов */
+
+
+/* Контакты */
+
+.contacts {
+    width: 100%;
+    height: calc(100% - 110px);
+    /*padding: 0px 10px;*/
+
+}
+.contacts-chat_box {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+}
+.contacts-chat_box:hover {
+    background-color: #f5f6f6;
+    transition: .1s ease;
+}
+
+.contacts-chat_box-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.menu-chat_box-info {
+    /*border-top: 1px solid #e5e5e5;*/
+    border-bottom: 1px solid #e5e5e5;
+    padding: 10px 0px;
+    width: -webkit-fill-available;
+}
+
+
+
+.menu-chat_box-info-title {
+    font-size: 20px;
+}
+.menu-chat_box-info-last_message {
+    font-size: 14px;
+    opacity: .6;
+}
+
+/* Контакты */
+
+
+
+
+
+/*создания/добавления чата*/
+
+
+.new_chat {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: -1000px;
+    transition: .3s;
+
+
+}
+.new_chat-none {
+    width: 100%;
+    height: 50px;
+    background-color: #008069;
+}
+
+.new_chat-title {
+    width: 100%;
+    height: 60px;
+    background-color: #008069;
+    color: white;
+    font-size: 21px;
+    /*font-weight: normal;*/
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.new_chat-title-back {
+    width: 19px;
+    height: 19px;
+    background-image: url(../img/arrow.png);
+    font-size: 20px;
+    font-weight: bold;
+    background-size: 100% 100%;
+    margin: 5px;
+    margin-right: 40px;
+}
+
+.new_chat-content {
+    width: 100%;
+    height: calc(100% - 120px);
+    background-color: white;
+}
+
+.new_chat-content-find_contact {
+    display: flex;
+    width: 95%;
+    height: 35px;
+    background-color: #f0f2f5;
+    align-items: center;
+    border: 0px;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.new_chat-content-find_contact-img_search {
+
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    margin-right: 35px;
+}
+
+.new_chat-content-find_contact-input {
+    width: auto;
+    height: 30px;
+    border: 0;
+    background-color: #f0f2f5;
+    font-size: 14px;
+
+}
+
+
+.new_chat-content-box_create_group {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+.new_chat-content-box_create_group:hover {
+    background-color: #f5f6f6;
+    transition: .1s ease;
+}
+.new_chat-content-box_create_group-chat_box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.new_chat-content-box_create_group-chat_box-logo {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 90%;
+    border: 0px;
+}
+
+.new_chat-content-box_create_group-chat_box-info {
+    /*border-top: 1px solid #e5e5e5;*/
+
+    padding: 10px 0px;
+    width: -webkit-fill-available;
+}
+
+.new_chat-content-box_create_group-chat_box-info-title {
+    font-size: 18px;
+}
+
+
+
+/*создания/добавления чата*/
+
+/* ЛЕВОЕ МЕНЮ */

@@ -1,0 +1,87 @@
+{% load static %}
+
+
+<link rel="stylesheet" href="{% static 'css/index_menu.css'%}" type="text/css">
+<script src="{% static 'js/script.js' %}"></script>
+
+<!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+
+<section class="menu">
+    <!-- Верхняя навигационная панель в главном меню -->
+    <div class="menu-top_menu">
+        <div class="menu-top_menu-profile"></div>
+        <div class="menu-top_menu-status"></div>
+        <div class="menu-top_menu-plus" onclick="open_block_new_chat()"></div>
+        <div class="menu-top_menu-menu_dost"></div>
+    </div>
+    <!-- Верхняя навигационная панель в главном меню -->
+
+    <!-- Поиск контактов  -->
+    <div class="find_contact">
+
+        <div class="find_contact-input_box">
+            <img class="find_contact-input_box-img_search" src="{% static 'img/search.png'%}" alt="">
+            <input class="find_contact-input_box-input" type="text" placeholder="Поиск или новый чат">
+        </div>
+        <img class="find_contact-img_filter" src="{% static 'img/filter.png'%}" alt="">
+    </div>
+    <!-- Поиск контактов  -->
+
+    <!-- Контакты -->
+    <div class="contacts">
+        {% for i in "1234" %}
+            <!-- блок контакта -->
+            <div class="contacts-chat_box" id="1" onclick="open_chat(this.id)">
+                <img class="contacts-chat_box-logo" src="{% static 'img/earth.png' %}" alt="">
+                <div class="menu-chat_box-info">
+                    <div class="menu-chat_box-info-title">Название</div>
+                    <div class="menu-chat_box-info-last_message">Посленднее сообщение</div>
+                </div>
+            </div>
+            <!-- блок контакта -->
+        {% endfor %}
+    </div>
+    <!-- Контакты -->
+
+    <!-- Блок для создания/добавления чата -->
+    <div class="new_chat" id="new_chat">
+        <div class="new_chat-none"></div>
+        <div class="new_chat-title">
+            <div class="new_chat-title-back" onclick="close_block_new_chat()">
+
+            </div>
+            Новый чат
+        </div>
+        <div class="new_chat-content">
+            <div class="new_chat-content-find_contact">
+                <img class="new_chat-content-find_contact-img_search" src="{% static 'img/search.png' %}" alt="">
+                <input class="new_chat-content-find_contact-input" type="text" placeholder="Поиск или новый чат">
+            </div>
+            <div class="new_chat-content-box_create_group">
+                <!-- блок чата в менюшке добавления чата -->
+                <div class="new_chat-content-box_create_group-chat_box" id="" onclick="">
+                    <img class="new_chat-content-box_create_group-chat_box-logo" src="{% static 'img/group.png' %}" alt="">
+                    <div class="new_chat-content-box_create_group-chat_box-info">
+                        <div class="new_chat-content-box_create_group-chat_box-info-title">Новая группа</div>
+                    </div>
+                </div>
+                <!-- блок чата в менюшке добавления чата -->
+                <!-- блок контакта -->
+                <div class="contacts-chat_box" id="2" onclick="open_chat(this.id)">
+                    <img class="contacts-chat_box-logo" src="{% static 'img/earth.png' %}" alt="">
+                    <div class="menu-chat-box-info">
+                        <div class="menu-chat_box-info-title">Название</div>
+                        <div class="menu-chat_box-info-last_message">Посленднее сообщение</div>
+                    </div>
+                </div>
+                <!-- блок контакта -->
+            </div>
+        </div>
+    </div>
+    <!-- Блок для создания/добавления чата -->
+
+</section>
